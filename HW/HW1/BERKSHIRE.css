@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+    color: #0000ff;
+    text-align: center;    
+}
+
+p {
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: #0000ff;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.column {
+    width: 45%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+    position: relative;
+    padding-left: 20px; 
+}
+
+li::before {
+    content: '•'; 
+    position: absolute;
+    left: 0; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #000; 
+}
+
+
+a {
+    color: #13138b;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a span.update-date {
+    font-style: oblique;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.note {
+    font-size: 12px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.footer1 p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer2 p{
+    font-size: 12px;
+    text-align: left;
+}
+
+
