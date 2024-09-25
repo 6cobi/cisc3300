@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    background-color: #89CFF0; 
+    position: relative;
+    text-align: center;
+    padding: 350px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.main-image {
+    width: 50%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff; 
+}
+

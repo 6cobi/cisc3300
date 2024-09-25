@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+}
+
+.item1 {
+    background-color: blue;
+}
+
+.item2 {
+    background-color: red;
+}
+
+.item3 {
+    background-color: yellow;
+}
+
+@media (max-width: 499px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 500px) {
+    .flex-container {
+        flex-direction: row;
+    }
+}
