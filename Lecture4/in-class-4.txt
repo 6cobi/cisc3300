@@ -1,0 +1,8 @@
+1. interpreted 
+2. dynamic 
+3. functional 
+4. let
+5. Scope
+6. const 
+7. callbacks functions
+8. Objects 
