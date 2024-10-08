@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="input">Enter Here:</label><br>
+        <input type="text" id="input" name="inputValue"><br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="message"  style="width: 200px"></div>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(e){
+            e.preventDefault();
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerHTML = '';
+            const input = document.getElementById('input').value;
+            if (input == "") {
+                const error = document.createElement('p');
+                error.textContent = "Please Provide a Value";
+                error.style.background = 'red';
+                messageDiv.appendChild(error);
+            } else {
+                const success = document.createElement('p');
+                success.textContent = "Success";
+                success.style.background = 'green';
+                messageDiv.appendChild(success);
+                console.log(input);
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+

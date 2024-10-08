@@ -1,0 +1,5 @@
+1. The DOM (Document Object Model) is a programming interface that represents the structure of a webpage as a tree of objects. The DOM tree is this hierarchical structure, where each node corresponds to elements, attributes, or text within the page.
+2. XSS (Cross-Site Scripting) is an attack where malicious scripts are injected into webpages and run on users' browsers, often stealing data or manipulating content. To prevent XSS, you should sanitize inputs, use Content Security Policies (CSP), and avoid inserting untrusted data directly into the DOM.
+3. In JavaScript, an event is an action or occurrence, like a button click or page load, that can trigger a predefined response in the code. Events are used to make webpages interactive.
+4. A DOM eventListener listens for a specific event (e.g., 'click') on an element and executes a function when that event occurs. It takes parameters such as the event type and the function to execute.
+5. jQuery is a JavaScript library that simplifies tasks like DOM manipulation, event handling, and AJAX. It's loaded into a webpage by adding a `<script>` tag pointing to the jQuery library, typically from a CDN.
