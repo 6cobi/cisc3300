@@ -1,0 +1,29 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Spaghetti with Tomato Sauce",
+        "description": "200g spaghetti, 2 cups tomato sauce, 1 tablespoon olive oil, 2 garlic cloves (minced), salt and pepper to taste, Parmesan cheese (optional)"
+      },
+      {
+        "id": 2,
+        "title": "Vegetable Stir-Fry",
+        "description": "1 cup broccoli (chopped), 1 bell pepper (sliced), 1 carrot (sliced), 1 onion (sliced), 2 tablespoons soy sauce, 1 tablespoon olive oil, 1 garlic clove (minced), cooked rice (to serve)"
+      },
+      {
+        "id": 3,
+        "title": "Chicken Salad",
+        "description": "2 cups cooked chicken (shredded), 1 cup lettuce (chopped), 1 cucumber (sliced), 1 tomato (chopped), 2 tablespoons olive oil, 1 tablespoon lemon juice, salt and pepper to taste"
+      },
+      {
+        "id": 4,
+        "title": "Banana Pancakes",
+        "description": "1 banana (mashed), 1 egg, 1/4 cup milk, 1/2 cup flour, 1 teaspoon baking powder, 1 tablespoon sugar, butter (for cooking)"
+      },
+      {
+        "id": 5,
+        "title": "Grilled Cheese Sandwich",
+        "description": "2 slices of bread, 2 slices of cheese, 1 tablespoon butter"
+      }
+    ]
+  }
