@@ -1,0 +1,30 @@
+1. What is HTTP?  
+   HTTP (HyperText Transfer Protocol) is how computers talk to each other on the web. It’s what your browser uses to load websites.  
+
+   HTTP Request Methods:  
+   - GET: Fetch data (like loading a webpage).  
+   - POST: Send data (like submitting a form).  
+   - PUT: Update data.  
+   - DELETE: Remove data.  
+   - PATCH: Partially update data.  
+
+2. What is an API? What is JSON?  
+   - API (Application Programming Interface) is like a bridge that allows two programs to talk to each other.  
+   - JSON (JavaScript Object Notation) is a simple format to send and receive data—looks like a text version of objects in code.
+
+3. What is AJAX? What is asynchronous code?  
+   - AJAX lets web pages get data from the server without refreshing (like loading new posts on Instagram without reloading the page).  
+   - Asynchronous code runs in the background, so other parts of your code can keep working without waiting for it to finish (like downloading a file while you keep browsing).
+
+4. What is REST? What are resources?  
+   - REST (Representational State Transfer) is a way to design APIs. A resource is like an object or thing you interact with, like "posts" in a blog app.  
+
+   If your app uses REST:  
+   - Retrieve multiple posts: `GET /posts`  
+   - Retrieve a single post: `GET /posts/{id}`  
+   - Save a post: `POST /posts`  
+   - Update a post: `PUT /posts/{id}` or `PATCH /posts/{id}`  
+
+5. What are hoisting and closures in JS?  
+   - Hoisting: Variables and functions are moved to the top of their scope before the code runs. That’s why you can call functions before defining them.  
+   - Closures: When a function remembers variables from where it was created, even if it runs somewhere else (like a function inside another function that still knows the outer one’s variables).

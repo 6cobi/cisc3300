@@ -1,0 +1,49 @@
+body {
+    margin: 20px;
+    background-color: #b9936c;
+}
+
+h1, h2 {
+    color: black;
+    text-align: center;
+}
+
+#recipe-list {
+    margin-top: 20px;
+}
+
+.recipe {
+    background-color: #e6e2d3;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #dac292;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #e6e2d3;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
