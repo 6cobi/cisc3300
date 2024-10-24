@@ -1,0 +1,10 @@
+1. PHP (Hypertext Preprocessor) is a server-side scripting language that generates dynamic web content. It processes code on the server and sends the result (usually HTML) to the browser. PHP handles tasks like forms, databases, and logins.
+Server-side languages process user input, interact with databases, manage sessions, and generate dynamic content before sending it to the browser. Examples include PHP, Python, and Node.js.
+
+2. PHP and JavaScript both handle variables, loops, and conditions. PHP runs on the server to generate HTML, while JavaScript typically runs in the browser to manipulate content after it loads. JavaScript can also be used server-side with Node.js, but PHP remains backend-focused.
+
+3. PHP is easy to learn, integrates well with HTML and MySQL, and is widely supported by web hosts. It has strong community support and documentation, making it ideal for beginners and practical for web development projects like WordPress.
+
+4. `include` loads a file and issues a warning if the file is missing, allowing the script to continue. `require` throws a fatal error if the file isn’t found, stopping the script. If a variable from a missing file is used, it will trigger an “undefined variable” error.
+
+5. `echo` prints simple output like text or HTML but doesn’t provide detailed information. `var_dump` outputs detailed data about a variable, including its type and structure, making it more useful for debugging complex data.

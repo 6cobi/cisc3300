@@ -1,2 +1,2 @@
 <?php
-$requiredVariable = "yeaaaaaaaa";
+$requiredVariable = "It worked";
